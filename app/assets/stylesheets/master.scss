@@ -25,6 +25,7 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
+
 }
 
 .frosty {
@@ -40,4 +41,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 body {
   background: image_url('bg.png');
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+  font-family: 'kaushan_scriptregular', sans-serif;
+  color: black;
+}
+
+.noises {
+  color: white;
 }

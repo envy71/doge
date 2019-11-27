@@ -1,0 +1,8 @@
+<div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 card form">
+
+  <h1>New Dog</h1>
+
+<%= simple_form_for @dog do |f| %>
+  <%= f.input :noises %>
+  <%= f.submit "Post!" %>
+<% end %>
